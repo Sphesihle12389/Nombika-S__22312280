@@ -1,4 +1,4 @@
-# TLPR200 / TPRO200 — Supplementary Examination 2026
+# TLPR200
 ## A Machine Learning Solution for Identifying Women-Safety Hotspots and Patterns in Ekurhuleni
 
 * **Student Surname & Initials:** Nombika, S.
