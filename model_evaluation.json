@@ -1,0 +1,161 @@
+{
+  "station_model": {
+    "n_observations": 39,
+    "threshold_75_density": 220.784,
+    "cv_accuracy": 0.7949,
+    "cv_roc_auc": 0.8397,
+    "cv_precision": 0.5833,
+    "cv_recall": 0.7,
+    "cv_f1": 0.6364,
+    "confusion_matrix": [
+      [
+        24,
+        5
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "holdout_accuracy": 0.8,
+    "holdout_roc_auc": 0.9048,
+    "holdout_confusion_matrix": [
+      [
+        6,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "roc_curve": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.1379,
+        0.1379,
+        0.1724,
+        0.1724,
+        0.2759,
+        0.2759,
+        0.3793,
+        0.4138,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.1,
+        0.2,
+        0.2,
+        0.5,
+        0.5,
+        0.8,
+        0.8,
+        0.9,
+        0.9,
+        1.0,
+        1.0
+      ]
+    },
+    "feature_importances": {
+      "area_sq_km": 0.2567,
+      "perimeter_km": 0.2405,
+      "poi_count": 0.1463,
+      "poi_density_index": 0.0853,
+      "shape_compactness": 0.0771,
+      "transport_density_index": 0.0766,
+      "dist_to_metro_center_km": 0.0709,
+      "adjacent_precincts": 0.0465
+    }
+  },
+  "station_quarter_model": {
+    "n_observations": 819,
+    "n_test": 164,
+    "threshold_75_quarterly_density": 10.3535,
+    "test_accuracy": 0.9634,
+    "test_roc_auc": 0.9913,
+    "test_precision": 0.8723,
+    "test_recall": 1.0,
+    "test_f1": 0.9318,
+    "confusion_matrix": [
+      [
+        117,
+        6
+      ],
+      [
+        0,
+        41
+      ]
+    ],
+    "roc_curve": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0081,
+        0.0081,
+        0.0163,
+        0.0163,
+        0.0244,
+        0.0244,
+        0.0325,
+        0.0325,
+        0.0407,
+        0.0407,
+        0.0894,
+        0.1057,
+        0.1463,
+        0.1626,
+        0.1951,
+        0.2358,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.0244,
+        0.4878,
+        0.4878,
+        0.7317,
+        0.7317,
+        0.8537,
+        0.8537,
+        0.9024,
+        0.9024,
+        0.9512,
+        0.9512,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "feature_importances": {
+      "area_sq_km": 0.2879,
+      "perimeter_km": 0.2186,
+      "poi_count": 0.1355,
+      "transport_density_index": 0.0737,
+      "shape_compactness": 0.0647,
+      "poi_density_index": 0.0647,
+      "dist_to_metro_center_km": 0.0512,
+      "Year": 0.0422,
+      "adjacent_precincts": 0.0293,
+      "SAPS_Fin_Quarter": 0.0151,
+      "Calendar_Quarter": 0.0109,
+      "is_summer_festive": 0.0063
+    }
+  },
+  "clustering": {
+    "k": 3,
+    "silhouette_score": 0.4354,
+    "pca_explained_variance": [
+      0.4077,
+      0.2824
+    ]
+  }
+}
